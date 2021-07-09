@@ -18,7 +18,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 
-import { MatButtonModule } from '@angular/material/button'
+import { MatButtonModule } from '@angular/material/button';
+import { ChildComponent } from './child/child.component'
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { MatButtonModule } from '@angular/material/button'
     StudentListComponent,
     CountryComponent,
     HeadsComponent,
-    HeaderComponent
+    HeaderComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
